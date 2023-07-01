@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: sticky;
+}
+
+.navbar svg{
+    margin: 30px;
+}
+
+.navbar p{
+    /* border: 1px solid red; */
+    margin-top: -20px;
+    line-height: 50px;
+}
+
+.ptags h2{
+    width: 250px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.searchbar{
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.navbar input{
+    border: none;
+    width: 500px;
+    background-color: #f8f8f8;
+}
+
+.navbar input:focus{
+    outline: none;
+}
+
+.navbar button{
+    width: 80px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+#cart{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+}
+
+
+/* Section 1 - Mid Section */
+
+
+.paanshop img{
+    width: 80%;
+    margin-left: 140px;
+}
+
+.treats{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.treats img{
+    width: 300px;
+    margin: 10px;
+}
+
+
+/* Section 2 - Mid div 2 */
+
+.mid-div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-left: 140px;
+}
+
+.mid-div2 img{
+    width: 100px;
+}
+
+
+/* Footer Section */
+
+.footer img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.section3 h1{
+    margin-left: 140px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    padding: 10px;
+    overflow: auto;
+    overflow-y: scroll;
+    margin-right: 180px;
+    height: 320px;
+    /* border: 1px solid black; */
+}
+
+
+.footer div{
+    border: 1px solid 
+    #e4e4e4;
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    /* overflow-wrap: break-word; */
+    /* box-sizing: border-box; */
+}
+
+.footer button{
+    align-self: end;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid green;
+    margin-left:50px;
+    margin-bottom: -80px;
+}
+
+.author p{
+    margin-left: 650px;
+}
+
+
+/* Making responsive for different devices */
+
+/* @media (max-width:800px) {
+    .section1{
+        ;
+    }
+} */
+
+
+
+/* @media (max-width:800px) {
+    .mid-div2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 100px);
+    }
+} */
+
+
+/* @media (max-width:800px) {
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat();
+    }
+} */
+
